@@ -1,13 +1,77 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+@import "tailwindcss";
+
+:root {
+  background-color: #FFFFFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  /* padding: 0;
+  margin: 0; */
+  box-sizing: border-box;
 }
+
+
+/* image reseting */
+img {
+  max-width: 100%;
+  /* display: block; */
+}
+
+/* For all elements that has a blue background */
+.blue-bg{
+  background-color: #0857FF;
+}
+
+.button-bg{
+  background-color: #3C74ED;
+}
+
+/* .home-nav{
+  @apply {({isActive}) => ( isActive ? "bg-[#F0F0F0] w-full text-center cursor-pointer md:py-2.5 md:pl-3 lg:pl-5 flex flex-col md:flex-row items-center justify-center md:justify-start gap-1 md:gap-3 text-[#0857FF]" : "w-full text-center cursor-pointer md:py-2.5 md:pl-3 lg:pl-5 flex flex-col md:flex-row items-center justify-center md:justify-start gap-1 md:gap-3")}
+} */
+
+.container{
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+@media (width >= 125rem /* 2000px */) {
+      .mx-width{
+        max-width: 70%;
+      }
+    }
+
+
+@media screen and (min-width:2000px) {
+  .nav{
+    width: calc(100% - 25rem);
+  }
+  
+}
+
+
+.scroll::-webkit-scrollbar-track {
+  /* padding: 20px 0; */
+  border-radius: 10px;
+  background-color: #D4D5D7;
+}
+
+.scroll::-webkit-scrollbar {
+  height: auto;
+  width: 15px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #b3b3b3;
+}
+
