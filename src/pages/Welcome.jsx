@@ -39,7 +39,7 @@ const Welcome = () => {
         </div>
       </div>
 
-      {/* Visible on screens less than or equals to 767px */}
+      {/* Visible on screens less than or equals to 767px*/}
       <div className="h-full flex md:hidden flex-col items-center justify-center max-w-[90%] mx-auto">
         <div className="flex flex-col items-center justify-center w-full h-full">
           <img src={welcomeImage} alt="A delivery man" />
