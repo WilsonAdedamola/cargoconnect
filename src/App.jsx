@@ -1,5 +1,4 @@
-import viteLogo from "/vite.svg";
-import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Welcome from "./pages/Welcome";
 
 import "./App.css";
