@@ -1,5 +1,5 @@
 import welcomeImage from "../assets/welcome-page.png";
-import welcomeSvg from "../assets/welcomepage-Vector.svg";
+import welcomeSvg from "../assets/Welcomepage-Vector.svg";
 import smallLogo from "../assets/small-logo.png";
 import "../App.css";
 import { Link } from "react-router-dom";
