@@ -12,6 +12,11 @@ import {
   ChevronDown,
 } from "lucide-react";
 
+
+  //   "predeploy": "npm run build",
+  //   "deploy": "gh-pages -d dist"
+  // "homepage": "https://WilsonAdedamola.github.io/cargoconnect",
+
 const Dashboard = () => {
   return (
     <div className="flex flex-col w-full h-dvh overflow-y-scroll">

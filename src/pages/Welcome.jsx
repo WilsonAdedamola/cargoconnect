@@ -46,7 +46,7 @@ const Welcome = () => {
           <h1 className="text-xl text-[#3C74ED] font-medium my-2.5 flex">
             Welcome to Cargo Connect
             <span>
-                <img src={smallLogo} alt="CargoConnet Logo" />
+                <img src={smallLogo} alt="Cargo Connect" />
             </span>
           </h1>
           <p className="text-[#575757] text-center">
