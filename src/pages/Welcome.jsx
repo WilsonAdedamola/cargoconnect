@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const Welcome = () => {
   return (
-    <div className="container mx-auto h-[100vh]">
+    <div className="container mx-auto h-dvh">
       {/* Visible on screens greater than or equals to 768px */}
       <div className="hidden md:flex items-center justify-center gap-8 xl:gap-16">
         <div className="flex flex-col gap-5 xl:gap-10 w-full items-start justify-center">
