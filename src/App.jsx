@@ -9,6 +9,7 @@ import History from "./pages/History";
 import ErrorPage from "./pages/ErrorPage";
 import Dashboard from "./pages/Dashboard";
 import Track from "./pages/Track";
+import Profile from "./pages/Profile";
 
 function App() {
   return (
@@ -48,6 +49,10 @@ const router = createBrowserRouter([
         path: "/history",
         element: <History />,
       },
+      {
+        path: "/profile",
+        element: <Profile />,
+      },
     ],
   },
   {
@@ -58,9 +63,4 @@ const router = createBrowserRouter([
     path: "/login",
     element: <Login />,
   },
-
-  // {
-  //   path: "/profile",
-  //     element: <Profile />,
-  // },
 ]);
