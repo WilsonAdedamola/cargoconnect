@@ -8,6 +8,7 @@ import Home from "./pages/Home";
 import History from "./pages/History";
 import ErrorPage from "./pages/ErrorPage";
 import Dashboard from "./pages/Dashboard";
+import Track from "./pages/Track";
 
 function App() {
   return (
@@ -36,12 +37,16 @@ const router = createBrowserRouter([
     element: <Home />,
     children: [
       {
-        path: "/history",
-        element: <History />,
-      },
-      {
         path: "/dashboard",
         element: <Dashboard />,
+      },
+      {
+        path: "/track",
+        element: <Track />,
+      },
+      {
+        path: "/history",
+        element: <History />,
       },
     ],
   },
@@ -54,10 +59,6 @@ const router = createBrowserRouter([
     element: <Login />,
   },
 
-  // {
-  //   path: "/track",
-  //     element: <Track />,
-  // },
   // {
   //   path: "/profile",
   //     element: <Profile />,

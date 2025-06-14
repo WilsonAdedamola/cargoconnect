@@ -20,7 +20,7 @@ import {
 const Home = () => {
   return (
     <div className="flex justify-center items-center flex-col-reverse md:flex-row w-full h-dvh">
-      <div className="shadow-2xl md:shadow-none bg-white md:bg-[#0857FF] flex md:flex-col items-center justify-center md:py-5 md:max-w-1/6 h-26 md:h-dvh  md:static w-full">
+      <div className="shadow-2xl md:shadow-none bg-white md:bg-[#0857FF] flex md:flex-col items-center justify-center md:py-5 md:max-w-1/6 h-26 md:h-dvh  md:static w-full mt-1 md:mt-0">
         <img src={Logo} alt="Cargo Connect" className="hidden md:block" />
         <div className="flex flex-col justify-between items-center text-xs md:text-base lg:text-lg md:mt-10 w-full h-full md:h-dvh">
           <div className="text-[#605D5D] md:text-white flex md:flex-col justify-center gap-5 h-full md:h-auto w-full">

@@ -41,7 +41,7 @@ const Welcome = () => {
 
       {/* Visible on screens less than or equals to 767px*/}
       <div className="h-full flex md:hidden flex-col items-center justify-center max-w-[90%] mx-auto">
-        <div className="flex flex-col items-center justify-center w-full h-full">
+        <div className="flex flex-col items-center justify-center w-full h-11/12">
           <img src={welcomeImage} alt="A delivery man" />
           <h1 className="text-xl text-[#3C74ED] font-medium my-2.5 flex">
             Welcome to Cargo Connect
