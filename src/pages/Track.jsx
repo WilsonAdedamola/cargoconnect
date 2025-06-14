@@ -1,5 +1,5 @@
 import React from "react";
-import userImg from "../assets/userImg.png";
+import userImg from "../assets/UserImg.png";
 import map from "../assets/web-map.png";
 import dottedLine from "../assets/Dotted-line.svg";
 import dottedLineBlue from "../assets/Dotted-line-blue.svg";
